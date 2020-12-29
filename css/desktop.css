@@ -212,6 +212,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 #progressbar{
+    z-index: 999;
     width: 0.4vw;
     height: 0%;
     background: white;
@@ -219,6 +220,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 #progressbackground{
+    z-index: 998;
     position: fixed;
     top: 35%;
     right: 2.5%;
@@ -227,7 +229,11 @@ html::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.2);
 }
 
+.activeScroll{
+    background: black;
+}
+
 .activities{
-    height: 50vh;
+    height: 150vh;
     width: 100vw;
 }
