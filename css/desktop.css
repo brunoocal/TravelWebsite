@@ -165,6 +165,19 @@ main .content .title{
 }
 
 
+.main-footer .vertical-text{
+    writing-mode:tb-rl;
+    font-family: 'Raleway', sans-serif;
+    grid-row: span 3;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1vw;
+    text-align: start;
+    justify-self: start;
+    letter-spacing: 2.5px;
+    margin-left: 5%;
+}
+
 @keyframes scaledown{
     0%{
         transform: scale(1.035);
