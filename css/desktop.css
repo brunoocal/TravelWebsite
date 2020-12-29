@@ -1,11 +1,86 @@
+
+@font-face{
+    font-family: 'Trueno';
+    src: url(../fonts/truenolt.otf);
+}
+
+@font-face{
+    font-family: 'Trueno bold';
+    src: url(../fonts/truenobd.otf);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 main{
     background: url(../img/hero.jpg) no-repeat center/cover;
     width: 100vw;
     height: 100vh;
+    display: grid;
+    grid-template-rows: minmax(0px, 6.25vw) minmax(0px, 40vw) minmax(0px, 12vw);
+    flex-direction: column;
+}
+
+.main-header{
+    display: grid;
+    grid-template-columns: minmax(0px, 20%) 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.main-header .logo{
+    justify-self: center;
+    align-self: center;
+    height: 65%;
+}
+
+
+.main-footer{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    display: flex;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header .itemsContainer{
+    opacity: 1;
+}
+
+main .content .textContainer{
+    margin-bottom: 6vw;
+    position: relative;
+}
+
+main .content .subtitle{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 1.85vw;
+    color: white;
+    position: relative;
+    top: 2vw;
+}
+
+main .content .title{
+    font-family: 'Trueno bold', sans-serif;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 13vw;
+    color: white;
 }
