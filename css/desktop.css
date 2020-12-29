@@ -315,3 +315,61 @@ html::-webkit-scrollbar-thumb {
 .kayaking{
     background: url(../img/activity4.jpg) no-repeat center/cover;
 }
+
+.aboutus{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.aboutus .subtitle{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px;
+    font-size: 0.95vw;
+    margin-bottom: 1.25%;
+}
+
+.aboutus .title{
+    font-family: 'Trueno bold', sans-serif;
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+    grid-row: span 1;
+    grid-column: 2/ span 1;
+}
+
+.aboutus .gridContainer{
+    display: grid;
+    margin-top: 2%;
+    width: 100%;
+    height: 90%;
+    grid-template-rows: repeat(3, minmax(0px, 33%));
+    grid-template-columns: minmax(0px, 65%) minmax(0px, 35%);
+    column-gap: 5vw;
+}
+
+.aboutus .grid-img{
+    grid-row: span 3;
+    grid-column: span 1;
+    justify-self: center;
+    align-self: center;
+    width: 90%;
+}
+
+.aboutus .textItem{
+    position: relative;
+    padding: 6%;
+}
+
+.aboutus .textItem .title{
+    text-align: start;
+    font-size: 2.3vw;
+    margin-bottom: 5.5%;
+}
+
+.aboutus .textItem .desc{
+    text-align: start;
+    font-size: 1.5vw;
+    font-family: 'Raleway', sans-serif;
+    color: #212121
+}
