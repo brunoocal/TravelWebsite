@@ -234,6 +234,84 @@ html::-webkit-scrollbar-thumb {
 }
 
 .activities{
-    height: 150vh;
     width: 100vw;
+    height: 90vh;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.activities .subtitle{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px;
+    font-size: 1.1vw;
+    margin-bottom: 1.25%;
+}
+
+.activities .title{
+    font-family: 'Trueno bold', sans-serif;
+    font-size: 2.35vw;
+    letter-spacing: 2px;
+}
+
+.activities .activities-gridContainer{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 85%;
+    grid-template-rows: minmax(0px, 80%);
+    grid-template-columns: repeat(4, minmax(0px, 17%));
+    margin-top: 5%;
+    column-gap: 1%;
+}
+
+.activities .gridItem{
+    border-radius: 10px;
+    box-shadow: 20px 20px 35px rgba(11, 8, 8, 0.3);
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+.activities .degree{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.1));
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+}
+
+.activities .gridItem .gridItem-title{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 10%;
+    left: 6.5%;
+    font-size: 1.85vw;
+}
+
+.activities .gridItem .gridItem-desc{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    position: absolute;
+    bottom: 3.5%;
+    left: 6.5%;
+}
+
+.hiking{
+    background: url(../img/activity1.jpg) no-repeat center/cover;
+}
+
+.sailing{
+    background: url(../img/activity2.jpg) no-repeat center/cover;
+}
+
+.skiing{
+    background: url(../img/activity3.jpg) no-repeat center/cover;
+}
+
+.kayaking{
+    background: url(../img/activity4.jpg) no-repeat center/cover;
 }
