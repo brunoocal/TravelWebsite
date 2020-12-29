@@ -24,7 +24,7 @@ main{
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: minmax(0px, 6.25vw) minmax(0px, 40vw) minmax(0px, 12.5vw);
+    grid-template-rows: minmax(0px, 12vh) minmax(0px, 67.3vh) minmax(0px, 20vh);
     flex-direction: column;
 }
 
