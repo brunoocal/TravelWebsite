@@ -243,7 +243,7 @@ html::-webkit-scrollbar-thumb {
 .activities .subtitle{
     font-family: 'Raleway', sans-serif;
     letter-spacing: 10px;
-    font-size: 1.1vw;
+    font-size: 1.25vw;
     margin-bottom: 1.25%;
 }
 
@@ -319,28 +319,26 @@ html::-webkit-scrollbar-thumb {
 .aboutus{
     width: 100vw;
     height: 90vh;
-    margin-top: 5%;
+    margin-top: 4vw;
     text-align: center;
 }
 
 .aboutus .subtitle{
     font-family: 'Raleway', sans-serif;
     letter-spacing: 10px;
-    font-size: 0.95vw;
-    margin-bottom: 1.25%;
+    font-size: 1.25vw;
+    margin-bottom: 1.25vw;
 }
 
 .aboutus .title{
     font-family: 'Trueno bold', sans-serif;
     font-size: 2.5vw;
     letter-spacing: 2px;
-    grid-row: span 1;
-    grid-column: 2/ span 1;
 }
 
 .aboutus .gridContainer{
     display: grid;
-    margin-top: 2%;
+    margin-top: 2vw;
     width: 100%;
     height: 90%;
     grid-template-rows: repeat(3, minmax(0px, 33%));
@@ -358,13 +356,13 @@ html::-webkit-scrollbar-thumb {
 
 .aboutus .textItem{
     position: relative;
-    padding: 6%;
+    padding: 2vw;
 }
 
 .aboutus .textItem .title{
     text-align: start;
     font-size: 2.3vw;
-    margin-bottom: 5.5%;
+    margin-bottom: 1.35vw;
 }
 
 .aboutus .textItem .desc{
@@ -372,4 +370,151 @@ html::-webkit-scrollbar-thumb {
     font-size: 1.5vw;
     font-family: 'Raleway', sans-serif;
     color: #212121
+}
+
+.apartaments{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 7.5%;
+    text-align: center;
+}
+
+.apartaments .subtitle{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px;
+    font-size: 1.25vw;
+    margin-bottom: 1.25%;
+}
+
+.apartaments .title{
+    font-family: 'Trueno bold', sans-serif;
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+}
+
+.apartaments .flexcontainer{
+    display: flex;
+    height: 50%;
+    width: 90%;
+    margin: 2.5% 5%;
+}
+
+.apartaments .flexcontainer .item{
+    width: 33%;
+    position: relative;
+}
+
+.apartaments .flexcontainer .item .apartament-img{
+    height: 60%;
+    width: 95%;
+    border-radius: 3.5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img1{
+    background-image: url(../img/apartament2.jpg);
+}
+
+#img2{
+    background-image: url(../img/apartament3.jpg);
+    background-position:bottom
+}
+
+#img3{
+    background-image: url(../img/apartament1.jpg);
+}
+
+
+.apartaments .flexcontainer .item .apartament-desc{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3.5%;
+    margin-left: 5%;
+}
+
+.apartaments .flexcontainer .item .apartamentdesc-title{
+    font-family: 'Trueno bold', sans-serif;
+    font-size: 1.8vw;
+
+}
+
+.apartaments .flexcontainer .item .apartament-desc img{
+    width: 32%;
+    margin-top: 0.5%;
+    margin-left: 5%;
+
+}
+
+.apartaments .flexcontainer .item .apartamentdesc-desc{
+    position: absolute;
+    left: 5%;
+    top: 78%;
+    font-family: 'Trueno', sans-serif;
+    font-size: 1.8vw;
+}
+
+.apartaments .moreoptions{
+    height: 50%;
+    display: flex;
+    margin: 2.5% 5%;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+}
+
+.apartaments .moreoptions .options-title{
+    font-family: 'Trueno bold', sans-serif;
+    align-self: flex-start;
+    font-size: 2.1vw;
+    margin-left: 1vw;
+}
+
+.apartaments .moreoptions .options-subtitle{
+    font-family: 'Trueno', sans-serif;
+    align-self: flex-start;
+    font-size: 1.65vw;
+    margin-left: 1vw;
+}
+
+.apartaments .moreoptions div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+
+.apartaments .moreoptions .options-form{
+    width: 70%;
+    height: 75%;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.apartaments .moreoptions .options-form .search-title{
+    width: 100%;
+    height: 80%;
+    padding-bottom: 1.5%;
+    padding-right: 87.5%;
+    font-size: 3.5vw;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.apartaments .moreoptions .options-button{
+    margin-left: 5%;
+    width: 17.5%;
+    height: 100%;
+    background: #1b1b1b;
+    display: flex;
+    justify-content: center;
+}
+
+.apartaments .moreoptions .options-s-button{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.3vw;
+    letter-spacing: 5px;
+    padding-bottom: 0.3vw;
+    color: white;
 }

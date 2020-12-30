@@ -4,7 +4,7 @@ window.onscroll = function(){
     let totalHeight = document.body.scrollHeight - window.innerHeight;
     let progressHeight = (window.pageYOffset / totalHeight) * 100;
     
-    if(progressHeight > 40){
+    if(progressHeight > 19){
         progressbackground.style.background = "rgba(0, 0, 0, 0.6)";
         progress.style.background = "black";
     }else{
